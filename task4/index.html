@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cheezy Times</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="photo.png" alt="Cheezy Times Logo">
+      <span>Cheezy Times</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#order">Make an Order</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="header-container">
+      <img src="photo_2025-07-10_22-32-02.jpg" alt="pizza photo">
+      <p class="sub-text">Pizza Any Time</p>
+      <p class="sub-desc">Your pizza, your way – delivered in 60 minutes</p>
+    </div>
+  </header>
+
+  <section class="cheesy-text">
+    <strong>Ready to cheesy?</strong>
+  </section>
+
+
+  <section id="order">
+    <form>
+      <fieldset>
+        <legend><strong>Fill it UP</strong></legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="Enter your name" /><br /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" /><br /><br />
+
+        <label for="Address">Address:</label>
+        <input type="text" id="Address" name="Address" placeholder="Enter your Address" /><br /><br />
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter your Email" /><br /><br />
+
+        <label for="instructions">Delivery Instructions:</label><br />
+        <textarea id="instructions" name="instructions" rows="4" cols="40" placeholder="No more than 400 characters long"></textarea>
+      </fieldset>
+    </form>
+  </section>
+
+  
+  <section>
+    <h2><i>Your Pizza, Your Rules – Create a Masterpiece </i></h2>
+
+    <form>
+      <fieldset>
+        <legend><strong>Pizza Details</strong></legend>
+
+        
+        <fieldset>
+          <legend><strong>Crust (Choose one):</strong></legend>
+          <label><input type="radio" name="crust" value="Classic White" /> Classic White</label><br />
+          <label><input type="radio" name="crust" value="Multigrain" /> Multigrain</label><br />
+          <label><input type="radio" name="crust" value="Cheese-stuffed crust" /> Cheese-stuffed crust</label><br />
+          <label><input type="radio" name="crust" value="Gluten-free" /> Gluten-free</label>
+        </fieldset>
+
+        
+        <fieldset>
+          <legend><strong>Toppings (Choose as many as you want):</strong></legend>
+          <label><input type="checkbox" name="toppings" value="Red Sauce" /> Red Sauce</label><br />
+          <label><input type="checkbox" name="toppings" value="White Sauce" /> White Sauce</label><br />
+          <label><input type="checkbox" name="toppings" value="Mozzarella Cheese" /> Mozzarella Cheese</label><br />
+          <label><input type="checkbox" name="toppings" value="Pepperoni" /> Pepperoni</label><br />
+          <label><input type="checkbox" name="toppings" value="Mushrooms" /> Mushrooms</label><br />
+          <label><input type="checkbox" name="toppings" value="Peppers" /> Peppers</label><br />
+          <label><input type="checkbox" name="toppings" value="Anchovies" /> Anchovies</label>
+        </fieldset>
+
+    
+        <fieldset>
+          <legend><strong>Number</strong></legend>
+          <label for="quantity">How many pizzas?</label><br />
+          <input type="number" id="quantity" name="quantity" min="1" />
+        </fieldset>
+
+    
+        <p>
+          <input type="submit" value="Bring me a pizza!" />
+          <input type="reset" value="Reset" />
+        </p>
+      </fieldset>
+    </form>
+  </section>
+
+  
+  <footer id="contact">
+    <p>&copy; 2025 Cheezy Times. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
