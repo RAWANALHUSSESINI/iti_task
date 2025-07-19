@@ -1,0 +1,187 @@
+
+@media screen and (min-width: 1200px) {
+  .hero-text h1 {
+    font-size: 64px;
+  }
+
+  .hero-text p {
+    font-size: 28px;
+  }
+
+  .card {
+    max-width: 320px;
+  }
+}
+ 
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    background-color: #b89775;
+    position: relative;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 90px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(107, 70, 31);
+    padding: 10px 0;
+  }
+
+  #menu-toggle:checked + .hamburger + .nav-links {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+  }
+
+  .hero {
+    padding: 20px;
+    text-align: center;
+    background-position: center;
+  }
+
+  .hero-text {
+    padding: 0 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-text button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about .image img {
+    width: 100%;
+  }
+
+  .text p {
+    justify-content: center;
+  }
+
+  .location-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .location .image img {
+    width: 100%;
+  }
+
+  .baking-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .contact .image img {
+    width: 100%;
+  }
+
+  .contact-item {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-item i {
+    margin-bottom: 5px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 13px;
+  }
+
+  .button.primary,
+  .button.second {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+}
