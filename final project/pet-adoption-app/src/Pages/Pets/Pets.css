@@ -1,0 +1,53 @@
+
+.pets-page {
+  background-color: #f7f1e3;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+
+.pet-card-custom {
+  background-color: #fff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+ 
+.title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #fdf6f0;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+
+.title-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #5c4033;
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+

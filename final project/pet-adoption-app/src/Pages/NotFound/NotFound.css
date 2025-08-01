@@ -1,0 +1,14 @@
+.notfound-page {
+  padding: 100px 20px;
+  background-color: #fefefe;
+  min-height: 80vh;
+}
+
+.notfound-page h2 {
+  font-size: 3rem;
+}
+
+.notfound-page p {
+  font-size: 1.25rem;
+  color: #666;
+}

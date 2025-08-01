@@ -1,0 +1,40 @@
+body {
+  background-color: #f7f3ef; 
+}
+
+h1 {
+  color: #5a3f30; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  background-color: #ffffff; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #4a3c30;
+}
+
+input.form-control {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: #ffffff;
+  color: #5a3f30;
+  border: 2px solid #5a3f30;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5a3f30;
+  color: #ffffff;
+}
+
